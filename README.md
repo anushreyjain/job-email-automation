@@ -6,7 +6,7 @@ by that blog you will get the clientId, clientSecret and refreshToken. and put t
 
 # Sending Emails Securely using Node.js, Nodemailer, SMTP, Gmail, and OAuth2
 
-## Steps to Follow:
+## Steps to setup:
 
 1. **Setting up a project:**
    - Create a new directory for your project.
@@ -34,8 +34,19 @@ by that blog you will get the clientId, clientSecret and refreshToken. and put t
    - Define the email options (sender, recipient, subject, text, etc.).
    - Use `transporter.sendMail` to send the email.
 
-7. **Running the script:**
-   - Execute the main script using `node`.
-
 This process enables you to send emails securely using Gmail SMTP and OAuth2 authentication with Node.js and Nodemailer.
+
+
+## Steps to use the Script:
+
+1. **There are two arrays as companyName and hrEmail**
+
+**NOTE** - Maintain the order of companyName and hrEmail in arrays i.e 'Google' 'hr@google.com' and so onn.
+
+2. **Fill companyName with the list of companies you want to apply for.**
+
+3. **Fill hrEmail with the list of emails of hr you want to mail.**
+
+4. **Running the script:**
+   - Execute the main script using `node`.
 
