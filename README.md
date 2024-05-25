@@ -13,17 +13,15 @@ by that blog you will get the clientId, clientSecret and refreshToken. and put t
    - Initialize a new Node.js project using `npm init`.
 
 2. **Installing necessary packages:**
-   - Install Nodemailer using `npm install nodemailer`.
-   - Install googleapis and nodemailer-smtp-transport using `npm install googleapis nodemailer-smtp-transport`.
+   - run npm i
 
 3. **Creating OAuth2 credentials:**
    - Go to Google Developer Console and create a new project.
-   - Enable the Gmail API for the project.
-   - Create OAuth2 credentials for the project.
-   - Download the credentials JSON file.
+   - Follow the steps given in the blog (Link given above)
 
 4. **Setting up OAuth2 credentials:**
    - Place the downloaded credentials JSON file in your project directory.
+   - Fill clientId, clientSecret and refreshToken in `credentials.json`.
    - Rename the JSON file to `credentials.json`.
 
 5. **Creating the main script:**
