@@ -42,9 +42,9 @@ This process enables you to send emails securely using Gmail SMTP and OAuth2 aut
 1. **There are two arrays as companyName and hrEmail**
 
 **NOTE** - Maintain the order of companyName and hrEmail in arrays i.e 
-            const companyName = ['Google', 'Facebook'];
-            const companyName = ['hr@google.com', 'hr@facebook.com'];
-            and so onn.
+          - const companyName = ['Google', 'Facebook'];
+          - const companyName = ['hr@google.com', 'hr@facebook.com'];
+          - and so onn.
 
 2. **Fill companyName with the list of companies you want to apply for.**
 
